@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-d1_ok",
-      "name": "D1_ok",
+      "id": "0-khun-vin-hc-vin",
+      "name": "Khuôn viên Học viện",
       "levels": [
         {
           "tileSize": 256,
@@ -26,10 +26,16 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": -0.7743437148941297,
-          "pitch": 0.028002476274046728,
+          "yaw": -0.4539540226995502,
+          "pitch": 0.02500828207894834,
           "rotation": 0,
-          "target": "1-d1_inside"
+          "target": "1-hi-trng-ln---bn-trong"
+        },
+        {
+          "yaw": -2.273044666787431,
+          "pitch": -0.008101111511088277,
+          "rotation": 0,
+          "target": "4-ta-a2---khoa-b-mn"
         }
       ],
       "infoHotspots": [
@@ -42,8 +48,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-d1_inside",
-      "name": "D1_inside",
+      "id": "1-hi-trng-ln---bn-trong",
+      "name": "Hội trường lớn - bên trong",
       "levels": [
         {
           "tileSize": 256,
@@ -70,20 +76,20 @@ var APP_DATA = {
           "yaw": -0.8133394001821657,
           "pitch": 0.2022280488974122,
           "rotation": 0,
-          "target": "3-b2_ok"
+          "target": "3-ta-b2---trng-tbd"
         },
         {
           "yaw": -2.314385915015256,
           "pitch": -0.0025010053646781216,
           "rotation": 0,
-          "target": "0-d1_ok"
+          "target": "0-khun-vin-hc-vin"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "2-a1_ok",
-      "name": "A1_ok",
+      "id": "2-ta-a1---bl-hc-vin",
+      "name": "Tòa A1 - BLĐ Học viện",
       "levels": [
         {
           "tileSize": 256,
@@ -101,16 +107,16 @@ var APP_DATA = {
       ],
       "faceSize": 1024,
       "initialViewParameters": {
-        "yaw": 0.5644197632126566,
-        "pitch": 0.4510706077970852,
+        "yaw": 0.04318691170120914,
+        "pitch": 0.21085796144457447,
         "fov": 1.3365071038314758
       },
       "linkHotspots": [
         {
-          "yaw": -1.536744382604784,
-          "pitch": 0.3803566602167532,
+          "yaw": -1.5380694263872279,
+          "pitch": 0.37992474131623766,
           "rotation": 0,
-          "target": "3-b2_ok"
+          "target": "3-ta-b2---trng-tbd"
         }
       ],
       "infoHotspots": [
@@ -123,8 +129,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "3-b2_ok",
-      "name": "B2_ok",
+      "id": "3-ta-b2---trng-tbd",
+      "name": "Tòa B2 - Trường ĐTBD",
       "levels": [
         {
           "tileSize": 256,
@@ -151,13 +157,13 @@ var APP_DATA = {
           "yaw": 2.2355759778815507,
           "pitch": 0.40413134542200346,
           "rotation": 0,
-          "target": "4-a2_ok"
+          "target": "4-ta-a2---khoa-b-mn"
         },
         {
           "yaw": -2.322458811771515,
           "pitch": -0.0637743004391389,
           "rotation": 0,
-          "target": "2-a1_ok"
+          "target": "2-ta-a1---bl-hc-vin"
         }
       ],
       "infoHotspots": [
@@ -182,8 +188,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "4-a2_ok",
-      "name": "A2_ok",
+      "id": "4-ta-a2---khoa-b-mn",
+      "name": "Tòa A2 - Khoa, Bộ môn",
       "levels": [
         {
           "tileSize": 256,
@@ -210,19 +216,19 @@ var APP_DATA = {
           "yaw": 1.3156101093323667,
           "pitch": -0.04096036200056474,
           "rotation": 0,
-          "target": "0-d1_ok"
+          "target": "0-khun-vin-hc-vin"
         },
         {
-          "yaw": 0.32225837949340885,
-          "pitch": -0.09082828571757418,
+          "yaw": 0.3880134395932302,
+          "pitch": -0.12020837003397489,
           "rotation": 0,
-          "target": "1-d1_inside"
+          "target": "1-hi-trng-ln---bn-trong"
         },
         {
           "yaw": -2.541154023341516,
           "pitch": 0.3167166060223092,
           "rotation": 0,
-          "target": "3-b2_ok"
+          "target": "3-ta-b2---trng-tbd"
         }
       ],
       "infoHotspots": [
@@ -235,7 +241,7 @@ var APP_DATA = {
       ]
     }
   ],
-  "name": "Project Title",
+  "name": "bav-tour",
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
